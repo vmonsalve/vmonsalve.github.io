@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: "Configurando vim para ejecutar codigo python"
 date: "2018-04-12 00:18:50 -0300"
 ---
@@ -16,3 +17,4 @@ map <F5> :w !python  % <CR>
 
 ```
 
+{% include disqus.html %}
