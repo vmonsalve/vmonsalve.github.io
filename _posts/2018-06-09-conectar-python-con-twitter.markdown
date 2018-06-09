@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: "Conectar Python con twitter"
 date: "2018-06-09 00:50:39 -0400"
 ---
@@ -29,3 +30,5 @@ api = tweepy.API(auth)
 ```
 
 Con esto ya podemos comenzar a jugar con la api de twitter sin dramas.
+
+{% include disqus.html %}
