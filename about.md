@@ -6,27 +6,27 @@ permalink: /about/
 
 Desarrollador backend con mas de 12 años de experiencia.
 
+### Experiencia laboral
+* AutomovilClub - Ingeniero de Software
+* Mediadiv - Desarrollador web.
+* Merval Valparaíso - Programador (Practica)
+* Adexus TI - Soporte tecnico / Mesa de ayuda
 
-### Formacion Academica.
+### Formación Académica.
 
-Analista programador - Incap Valparaíso.
+Analista programador - Inacap Valparaíso.
 
 ### Tecnologias con las trabajo.
 
-* PHP
-* Python
-* NODE.js
+* PHP (Symfony)
+* Python (Flask, Pandas, POO, Funcional, Web scraping)
+* Javascript (NODEjs, Express)
+* HTML5 / CSS / Javascript
 * GIT
-* SERVIDORES Linux
-* SQL (MySQL, PostgreSQL, Microsoftr SQLServer)
+* SERVIDORES GNU/Linux (Ubuntu server)
+* SQL (MySQL, PostgreSQL, Microsoft SQLServer)
+* Bash scripting
 * NGINX, APACHE
-
-### Experiencia laboral
-* Adexus TI - Soporte tecnico / mesa de ayuda
-* Merval Valparaíso - Programador (Practica)
-* Mediadiv - Desarrollador web.
-* AutomovilClub - Ingeniero de Software
-
 
 ### Contactame.
 
