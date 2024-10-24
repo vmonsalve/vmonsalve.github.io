@@ -15,7 +15,7 @@ En este caso vamos a crear una solucion, para una api.
 
 Para crear una solución simple con dotnet-cli debemos ejecutar el siguiente comando.
 
-```Text
+```Bash
 dotnet new sln
 ```
 
@@ -25,7 +25,7 @@ Este comando nos creara una archivo sln en el directorio donde estes posicionado
 
 Para crear una solucion tipo webapi usamos el siguiente comando.
 
-```Text
+```Bash
 dotnet new webapi -controllers -n [NombreSolucion]
 ```
 
