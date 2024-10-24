@@ -32,7 +32,6 @@ dotnet new webapi -controllers -n [NombreSolucion]
 Desglosemos el comando para entender que es lo que hace.
 
 1. dotnet new webapi
-
    
     1. dotnet new es el comando base para crear un nuevo proyecto. Permite especificar un template que define el tipo de proyecto a iniciar.
 
