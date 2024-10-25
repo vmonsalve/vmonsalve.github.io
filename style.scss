@@ -30,23 +30,17 @@ body {
   width: 100%;
 }
 
-.divprincipal{
-  display: grid;
-  min-height: 100dvh;
-  grid-template-rows: auto 1fr auto;
-}
-
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
   color: $darkerGray;
   font-weight: bold;
 
-  line-height: 1.7;
+  line-height: 1;
   margin: 1em 0 15px;
   padding: 0;
 
   @include mobile {
-    line-height: 1.4;
+    line-height: 1;
   }
 }
 
@@ -288,6 +282,12 @@ footer {
   padding: 20px 0;
   text-align: center;
 }
+
+.divprincipal{
+  display: grid;
+  min-height: 100dvh;
+  grid-template-rows: auto 1fr auto;
+} 
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
