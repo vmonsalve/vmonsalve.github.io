@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   jekyll:
-    image: bretfisher/jekyll-serve
+    build: .
     volumes:
       - .:/site
     ports:

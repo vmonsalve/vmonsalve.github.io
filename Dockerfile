@@ -15,8 +15,12 @@ WORKDIR /site
 # Añadir el Gemfile y Gemfile.lock al directorio de trabajo
 COPY Gemfile* /site/
 
-# Actualizar RubyGems y Bundler
-RUN gem update --system 3.2.22 && gem install bundler
+# Actualizar RubyGems y instalar una versión específica de Bundler
+RUN gem update --system && gem install bundler -v 2.2.22
+
+# Configurar Bundler para evitar problemas de versiones o fuentes
+RUN bundle config set --local without 'development test'
+RUN bundle config set --local path 'vendor/bundle'
 
 # Instalar las gemas, incluyendo Jekyll
 RUN bundle install
