@@ -97,7 +97,7 @@ Como podemos ver el primer contenedor que se crea es el de php, luego el de mysq
 Para saber que direccion ip se le asigno a nuestro contenedor debemos ejecutar el siguiente comando
 
 ```text
-docker inspect -f '&#123;&#123;range .NetworkSettings.Networks&#125;&#125;&#123;&#123;.IPAddress&#125;&#125;&#123;&#123;end&#125;&#125;' nombre_contenedor
+docker inspect -f '{% raw %} {{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}} {% endraw %}' nombre_contenedor
 ```
 
 Esto nos devolvera lo siguiente, en mi caso esta ip.
