@@ -74,3 +74,17 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+  - crea_post.py
+  - docker-compose.yml
+  - Dockerfile
+  - .gitignore
+
+defaults:
+  - scope:
+      path: "category"
+    values:
+      layout: default
+      permalink: /:basename/
+
+include:
+  - category

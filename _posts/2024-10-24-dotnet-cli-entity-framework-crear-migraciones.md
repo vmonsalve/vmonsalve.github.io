@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Dotnet-cli entity framework crear migraciones
+categories: notas
 ---
 
 # Dotnet-cli entity framework crear migraciones

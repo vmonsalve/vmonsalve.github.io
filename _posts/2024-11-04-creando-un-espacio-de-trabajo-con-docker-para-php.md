@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Creando un espacio de trabajo con docker para php
+categories: notas
 ---
 
 # Creando un espacio de trabajo con docker para php

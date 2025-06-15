@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Docker crear un contenedor sqlserver
+categories: notas
 ---
 
 # Docker crear un contenedor sqlserver

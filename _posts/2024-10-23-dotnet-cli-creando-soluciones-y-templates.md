@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Dotnet-cli creando soluciones y templates
+categories: notas
 ---
 
 # Dotnet-cli creando soluciones y templates
