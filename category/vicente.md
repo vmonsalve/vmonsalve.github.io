@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Textos de Vicente
-permalink: /Vicente/
+permalink: /vicente/
 ---
 
 # ✒️ Textos de Vicente
