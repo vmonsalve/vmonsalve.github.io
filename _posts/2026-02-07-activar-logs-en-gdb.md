@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Activar logs en gdb
+title: GDB - Activar logs en gdb
 categories: vicente
 ---
 

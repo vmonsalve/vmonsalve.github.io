@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Capitulo 01 - Memoria en C y Observación
-categories: Vicente
+categories: vicente
 ---
 
 ## Comenzando.
