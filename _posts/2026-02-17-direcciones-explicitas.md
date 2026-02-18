@@ -134,3 +134,8 @@ $3 = 0x7824e6a2b5c0 <dl_main> "Uf\017\357\300H\211\345AWI\211\377AVAUATSH\201\35
 ```
 
 Debemos mencionar que GDB intenta asociar direcciones con símbolos conocidos del binario o librerías cargadas. Cuando la dirección cae dentro de un segmento compartido con otros símbolos, GDB muestra el símbolo más cercano.
+
+Si quieres probar esto en un entorno controlado aqui tienes este lab completo
+
+[The Art of exploitation](https://github.com/vmonsalve/the-art-of-exploitation-lab-es)
+
