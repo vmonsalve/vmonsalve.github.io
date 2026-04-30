@@ -1,10 +1,10 @@
-version: '3.8'
 services:
   jekyll:
+    container_name: blog
+    image: blog-jekyll
     platform: linux/amd64
     build: 
-      context: .
-      
+      context: . 
     volumes:
       - .:/site
     ports:

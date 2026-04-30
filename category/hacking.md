@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Notas de un dev
-permalink: /notas/
+title: Hacking
+permalink: /hacking/
 ---
 
-{% for post in site.categories.notas %}
+{% for post in site.categories.hacking %}
   <article>
     <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
     <p><small>{{ post.date | date: "%d %B %Y" }}</small></p>

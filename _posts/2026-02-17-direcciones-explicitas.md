@@ -2,7 +2,7 @@
 layout: post
 title: Direcciones explicitas
 date: 2026-02-17
-categories: vicente
+categories: cracking
 ---
 
 # Direcciones explicitas

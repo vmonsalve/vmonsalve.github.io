@@ -1,7 +1,7 @@
 ---
 layout: post
 title: GDB - Activar logs en gdb
-categories: vicente
+categories: cracking
 ---
 
 Gdb trae su propio sistema de logs y lo podemos activar de la siguiente manera:
