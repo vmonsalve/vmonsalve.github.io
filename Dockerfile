@@ -1,23 +1,21 @@
-FROM ruby:3.1
+FROM ruby:3.1-alpine
 
-# Instala dependencias necesarias
-RUN apt-get update -qq && \
-    apt-get install -y build-essential curl nodejs npm
+RUN apk add --no-cache \
+    build-base \
+    curl \
+    nodejs \
+    npm \
+    linux-headers \
+    libffi-dev
 
-# Instala Yarn con NPM directamente
 RUN npm install -g yarn
 
-# Directorio del sitio
 WORKDIR /site
 
-# Copia el Gemfile y lo instala
-COPY Gemfile* ./
-RUN bundle install
+COPY Gemfile Gemfile.lock ./
 
-# Copia el resto del contenido
-COPY . .
+RUN bundle install
 
 EXPOSE 4000
 
-# Ejecuta Jekyll
 CMD ["bundle", "exec", "jekyll", "serve", "--host", "0.0.0.0"]
