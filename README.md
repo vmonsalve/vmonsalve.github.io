@@ -1,6 +1,6 @@
 # vmonsalve blog
 
-Blog con artículos de programación y sistemas que voy aprendiendo.
+Blog con artículos de programación y sistemas que voy aprendiendo [https://vmonsalve.github.io/](https://vmonsalve.github.io/).
 
 ## Stack
 
@@ -66,3 +66,4 @@ YYYY-MM-DD-titulo-del-post.md
 ## Filosofía
 
 Este blog busca documentar aprendizaje real, debugging y construcción de sistemas, reduciendo fricción en el proceso.
+
