@@ -4,10 +4,10 @@ services:
     image: blog-jekyll
     platform: linux/amd64
     build: 
-      context: . 
-      dockerfile: Dockerfile
+      context: .. 
+      dockerfile: Docker/Dockerfile
     volumes:
-      - .:/site
+      - ..:/site
     ports:
       - "4000:4000"
     working_dir: /site 
