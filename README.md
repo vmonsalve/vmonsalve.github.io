@@ -14,7 +14,7 @@ Blog con artículos de programación y sistemas que voy aprendiendo [https://vmo
 ## Levantar entorno
 
 ```bash
-docker compose up -d --build
+docker compose -f Docker/docker-compose.yml up -d --build
 ```
 
 Esto levanta el entorno de desarrollo del blog (Jekyll dentro de Docker).
@@ -40,7 +40,7 @@ docker exec -it blog bundle exec jekyll build
 ### Detener entorno
 
 ```bash
-docker compose down
+docker compose -f Docker/docker-compose.yml down
 ```
 
 ### Ver logs

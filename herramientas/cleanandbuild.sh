@@ -2,10 +2,10 @@
 
 set -e
 
-echo "🧹 Cleaning..."
+echo "[+] Cleaning..."
 docker exec blog bundle exec jekyll clean
 
-echo "🏗️ Building..."
+echo "[+] Building..."
 docker exec blog bundle exec jekyll build
 
-echo "✅ Done"
+echo "[+] Done"

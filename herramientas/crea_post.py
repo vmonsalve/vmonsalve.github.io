@@ -28,10 +28,10 @@ title: {title}
 Contenido del post...
 """
 
-    if not os.path.exists('../_posts'):
+    if not os.path.exists('_posts'):
         os.makedirs('_posts')
 
-    post_path = os.path.join('../_posts', filename)
+    post_path = os.path.join('_posts', filename)
     with open(post_path, 'w') as file:
         file.write(content)
 
