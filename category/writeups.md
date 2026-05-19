@@ -4,7 +4,7 @@ title: Write up maquinas y crackmes
 permalink: /writeups/
 ---
 
-{% for post in site.categories.notas %}
+{% for post in site.categories.writeups %}
   <article>
     <a href="{{ post.url }}">{{ post.title }}</a>
     <p><small>{{ post.date | date: "%d %B %Y" }}</small></p>
